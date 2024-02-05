@@ -42,7 +42,7 @@ def send_random_gif(message):
         bot.reply_to(message, f"No GIFs found for the command /{command}.")
 
 def get_random_gif_data(endpoint):
-    response = requests.get(f"https://pornapi.xsbnlg.repl.co/{endpoint}")
+    response = requests.get(f"https://pron-api.onrender.com/{endpoint}")
     data = response.json()
     return random.choice(data) if data else None
 
