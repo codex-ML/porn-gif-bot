@@ -1,2 +1,4 @@
 telebot==0.0.5
 requests==2.31.0
+pytelegrambotapi==4.15.4
+aiohttp==3.9.3
